@@ -251,89 +251,83 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   ),
                 ],
               ),
-              Align(
-                alignment: AlignmentDirectional(0.00, 1.00),
-                child: Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 50.0, 0.0, 0.0),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
-                      Align(
-                        alignment: AlignmentDirectional(0.00, 0.00),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              50.0, 0.0, 0.0, 0.0),
-                          child: FlutterFlowIconButton(
-                            borderColor: Color(0x13000000),
-                            borderRadius: 50.0,
-                            borderWidth: 0.0,
-                            buttonSize: 70.0,
-                            fillColor: Color(0xFF5500FF),
-                            hoverColor: Color(0xFF5500FF),
-                            hoverIconColor: Colors.black,
-                            icon: Icon(
-                              Icons.house,
-                              color: Colors.white,
-                              size: 40.0,
+              // Generated code for this Column Widget...
+              Flexible(
+                child: Column(
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 20),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Align(
+                            alignment: AlignmentDirectional(0.00, 0.00),
+                            child: FlutterFlowIconButton(
+                              borderColor: Color(0x13000000),
+                              borderRadius: 50,
+                              borderWidth: 0,
+                              buttonSize: 70,
+                              fillColor: Color(0xFF5500FF),
+                              hoverColor: Color(0xFF5500FF),
+                              hoverIconColor: Colors.black,
+                              icon: Icon(
+                                Icons.house,
+                                color: Colors.white,
+                                size: 40,
+                              ),
+                              onPressed: () async {
+                                context.pushNamed('HomePage');
+                              },
                             ),
-                            onPressed: () async {
-                              context.pushNamed('HomePage');
-                            },
                           ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(0.00, 0.00),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              45.0, 0.0, 0.0, 0.0),
-                          child: FlutterFlowIconButton(
-                            borderColor: Color(0x13000000),
-                            borderRadius: 50.0,
-                            borderWidth: 0.0,
-                            buttonSize: 70.0,
-                            fillColor: Color(0xFF9800FF),
-                            hoverColor: Color(0xFF9800FF),
-                            hoverIconColor: Colors.black,
-                            icon: Icon(
-                              Icons.qr_code_scanner,
-                              color: Colors.white,
-                              size: 40.0,
+                          Align(
+                            alignment: AlignmentDirectional(0.00, 0.00),
+                            child: FlutterFlowIconButton(
+                              borderColor: Color(0x13000000),
+                              borderRadius: 50,
+                              borderWidth: 0,
+                              buttonSize: 70,
+                              fillColor: Color(0xFF9800FF),
+                              hoverColor: Color(0xFF9800FF),
+                              hoverIconColor: Colors.black,
+                              icon: Icon(
+                                Icons.qr_code_scanner,
+                                color: Colors.white,
+                                size: 40,
+                              ),
+                              onPressed: () async {
+                                context.pushNamed('QRcode');
+                              },
                             ),
-                            onPressed: () async {
-                              context.pushNamed('QRcode');
-                            },
                           ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(0.00, 0.00),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              40.0, 0.0, 0.0, 0.0),
-                          child: FlutterFlowIconButton(
-                            borderColor: Color(0x17000000),
-                            borderRadius: 50.0,
-                            borderWidth: 0.0,
-                            buttonSize: 70.0,
-                            fillColor: Color(0xFFE700FF),
-                            hoverColor: Color(0xFFE700FF),
-                            hoverIconColor: Colors.black,
-                            icon: Icon(
-                              Icons.list,
-                              color: Colors.white,
-                              size: 30.0,
+                          Align(
+                            alignment: AlignmentDirectional(0.00, 0.00),
+                            child: FlutterFlowIconButton(
+                              borderColor: Color(0x17000000),
+                              borderRadius: 50,
+                              borderWidth: 0,
+                              buttonSize: 70,
+                              fillColor: Color(0xFFE700FF),
+                              hoverColor: Color(0xFFE700FF),
+                              hoverIconColor: Colors.black,
+                              icon: Icon(
+                                Icons.list,
+                                color: Colors.white,
+                                size: 30,
+                              ),
+                              onPressed: () async {
+                                context.pushNamed('list');
+                              },
                             ),
-                            onPressed: () async {
-                              context.pushNamed('list');
-                            },
                           ),
-                        ),
+                        ],
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
             ],
